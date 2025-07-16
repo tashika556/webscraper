@@ -17,3 +17,4 @@ for quote in quotes:
     author = quote.find('small',class_='author').text.strip()  
     writer.writerow([text,author])
 
+print("Quotes saved successfully in csv file.")
